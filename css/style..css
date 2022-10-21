@@ -1,0 +1,301 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+.home {
+   background-image: url(../img/drew-coffman-1872.jpg);
+   background-position: center center;
+   background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+ .home .cpation{
+    
+    width: 60%;
+    margin: 160px auto 60px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.home .cpation p{
+    font-size: 30;
+}
+.home .cpation h1{
+    font-size: 70;
+}
+ .home .botn{
+  
+    text-align: center;
+}
+.home .botn .one{
+    background-color: rgb(142, 119, 84);
+    border: 2px solid;
+}
+.home .botn a{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid;
+    padding: 18px 25px;
+    font-weight: bolder;
+    border-radius: 4px;
+    margin: 0px 5px ;
+    transition: background-color 0.4 ;
+}
+.home .botn a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.home .contener{
+    width: 90%;
+    margin: auto;
+}
+.home .navbar{
+   
+    padding: 30px;
+    overflow: hidden;
+}
+.home .navbar .logo{
+   
+    width: 20%;
+    float: left;
+}
+.home .navbar .logo img{
+    width: 80%;
+}
+.home .navbar .items{
+    
+    width: 80%;
+    float: left;
+}
+.home .navbar .items ul{
+    list-style: none;
+    float: right;
+}
+.home .navbar .items ul li{
+    float: left;
+    margin: 10px 15px;
+    color: #fff;
+}
+/* end of home section  style*/
+.about{
+background-color: white;
+    overflow: hidden;
+    margin:  60px 60px;
+    }
+.about .about-img{
+  
+    width: 45%;
+    float: left;
+}
+.about .about-img img{
+    width: 100%;
+}
+.about .about-caption{
+   
+    width: 50%;
+    float: left;
+    margin: 20px 30px ;
+    padding: 20px 40px ;
+   
+
+}
+.about .about-caption h2{
+    margin: 20px 0;
+    font-size: 20px;
+  
+    font-family: "Alegreya Sans";
+}
+.about .about-caption p{
+    line-height: 2;
+    color: #686868;
+    font-family: "Alegreya Sans";
+    font-size: 16;
+    padding-right: 30px;
+    }
+    .about .about-caption .aboutitem{
+        line-height: 3;
+        color: #686868;
+
+    }
+
+        /* end about */
+       
+
+       .our-offer{
+     background-color: #f8f8f8;
+           overflow: hidden;
+        
+           margin-top: 40px;
+           
+
+
+       }
+       .our-offer .our-location{
+          
+           float: left;
+           width: 50%;
+           margin: 50px 30px;
+           
+       }
+       .our-offer .our-location h2{
+           font-size: 30;
+           margin: 15px 0;
+           padding: 0 15px;
+           
+       }
+       .our-offer .our-location p{
+          color:#686868 ;
+          line-height: 2;
+          padding: 10px;
+       }
+       .our-offer .our-img{
+       
+           float: left;
+           width: 40%;
+           margin-right: 10px;
+     
+       }
+       .our-offer .our-img img{
+           width: 100%;
+       }
+       /* end ot our offer */
+       .our-baking{
+          
+           overflow: hidden;
+           margin: 60px 60px;
+       }
+       .our-baking .baking-hedding{
+          
+           text-align: center;
+           margin: 20px 0;
+           padding: 20px 0;
+       }
+       .our-baking .baking-hedding p{
+           color: #686868;
+       }
+       .our-baking  .baking-item{
+           
+           width: 33.33%;
+           float: left;
+           text-align: center;
+           padding: 0 20px;
+       }
+       .our-baking  .baking-item h2{
+           margin: 20px 0;
+       }
+       .our-baking  .baking-item p{
+           line-height: 2;
+           padding:  10px 25px;
+           color: #686868;
+       }
+       .our-baking  .baking-item img{
+           width: 100%;
+       }
+/* ned of baking */
+.contact-information{
+    background-color: #f8f8f8;
+    overflow: hidden;
+ 
+}
+.contact-information-item{
+    margin: 60px;
+    float: left;
+    width: 55%;
+}
+.contact-information-item h2{
+    margin: 20px 0;
+    font-size: 30px;
+   
+  
+    font-family: "Alegreya Sans";
+}
+.contact-information-item p{
+    line-height: 2;
+    color: #686868;
+    font-family: "Alegreya Sans";
+    font-size: 16;
+    padding-right: 30px;
+}
+.contact-information-img{
+margin-top: 50px;
+  float: left;
+    width: 45%; 
+}
+.contact-information-img img{
+    width: 50%;
+    padding-top: 50px;
+}  
+.contact-information-item2{
+    line-height: 3;
+    color: #686868;
+} 
+/*end of contact*/
+.end{
+    
+    overflow: hidden;
+    background-color: #353330;
+}
+.end h2{
+    margin: 20px 0;
+    color: #fff;
+    font-size: 20px;
+}
+.end p{
+    line-height:2;
+    color: #686868;
+    font-family: "Alegreya Sans";
+    font-size: 16;
+    padding-right: 30px;
+}
+.end-about{
+    margin: 60px;
+    float: left;
+    width: 16%;
+}
+.end-why{
+    margin: 60px;
+    float: left;
+    width:16%;
+}
+.end-opening{
+    float: left;
+    width:16% ;
+    margin: 60px;
+}
+.end-details{
+    
+    float: left;
+    width: 16%;
+    margin: 60px;
+}
+footer{
+    background-color: #222120;
+    text-align: center;
+}
+footer p{
+    color: #686868;
+    line-height: 3;
+    margin-top: 10px;
+}
+footer p .text{
+    font-size: xx-large;
+}
+footer img{
+    padding-top: 40px;
+}
+
+    
+   
+}
+
+
+   
+      
+      
